@@ -11,3 +11,11 @@ Main screen.
 Ordering page.
 
 ![ScreenShot](images/order.png)
+
+Account creation error.
+
+![ScreenShot](images/acc_error.png)
+
+Ticket ordering error.
+
+![ScreenShot](images/ticket_error.png)

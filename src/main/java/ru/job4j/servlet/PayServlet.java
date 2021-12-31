@@ -18,7 +18,7 @@ public class PayServlet extends HttpServlet {
         String phone = req.getParameter("phone");
         String email = req.getParameter("email");
         int row = Integer.parseInt(req.getParameter("row"));
-        int col = Integer.parseInt(req.getParameter("col"));
+        int col = Integer.parseInt(req.getParameter("column"));
         Account account = new Account(username, email, phone);
         int accountId = DbStore.getInstance().findAccount(account);
         if (accountId == -1) {
