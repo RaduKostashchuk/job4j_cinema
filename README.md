@@ -1,21 +1,40 @@
 # job4j_cinema
+## О проекте
 
-It is application for ordering movie tickets.
+Это приложение для заказа билетов в кинотеатре.
 
-User can view cinema hall occupancy, select free place and order it.
+Пользователь может видеть занятые места, выбрать и забронировать свободные.
 
-Main screen.
+
+## Обзор
+
+Главная страница.
 
 ![ScreenShot](images/main.png)
 
-Ordering page.
+Страница бронирования.
 
 ![ScreenShot](images/order.png)
 
-Account creation error.
+Ошибка создания учетной записи.
 
 ![ScreenShot](images/acc_error.png)
 
-Ticket ordering error.
+Ошибка бронированиня билета.
 
 ![ScreenShot](images/ticket_error.png)
+
+## Настройка и сборка
+
+У приложения есть один файл конфигурации: /src/main/resources/db.properties,
+
+в котором необходимо указать настройки соединения с сервером баз данных.
+
+Сборка осуществляется командой: mvn package.
+
+После сборки приложение нужно развернуть в контейнере сервлетов и настроить сервер баз данных.
+
+## Контакты
+
+Email: kostasc@mail.ru
+Telegram: @rkostashchuk
